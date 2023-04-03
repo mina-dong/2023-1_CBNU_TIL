@@ -176,5 +176,45 @@ The unified process
 ---
 A specific methodology that maps out when and how to use ther various UML techniques for object-oriented analysis and design - 객체지향분석과 설계를위해 Uml기술을 이용하고 맵핑하기위한 프로세스 모델 중 하나.
 
+![unified process - wiki](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Unified_Process_Model_for_Iterative_Development.svg/1024px-Unified_Process_Model_for_Iterative_Development.svg.png)
 
-  
+
+* Inception 시작
+  >* feasibility analysesperformed
+  >* workflows varybut focusis on business modeling & requirements gathering -> **Planning**
+* Elaboration 정교화
+  >*heavy focus on **analysis & design**
+  >other workflows may be included
+* construcion: focus on **programming(implementation)**
+* transition:focus on testing & deployment
+
+Workflows
+---
+engineering workflows 
+* business modeling
+* requirements
+* analysis
+* design
+* implementation
+* esting
+* deployment
+
+supporting workflows
+* project management
+* configuration(향상) and change managerment
+* environment
+* operations and support
+* infrastructure management
+
+Extensions to therunified process
+---
+the unified process does not include :
+* staffing
+* budgeting
+* contract management
+* maintenance
+* operations
+* support
+* cross - or inter-project ussues
+
+**UML - uified modeling language**
