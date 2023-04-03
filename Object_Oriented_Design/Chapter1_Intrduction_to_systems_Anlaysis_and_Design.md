@@ -55,7 +55,7 @@ Questions to be Answered
   >* how should we build it? - 어떻게 만들건가?
 
  
- SDLC : the planning phase - 결과물 : 프로젝트 계획서(system request)
+ SDLC : the planning phase - 결과물 : 프로젝트 요청서서(system request)
  ---
  
 1. Project Initiation
@@ -71,8 +71,9 @@ Questions to be Answered
    * staff the project(인력 배치)
    * monitor & control the project (연, 주, 년 별로 관리)
 
- SDLC : the analysis phase - 결과물 : 시스템 제안서(system proposal)
+ SDLC : the analysis phase - 결과물 : 시스템 제안서(system proposal) = 소프트웨어에서는 요구사항 명세서
  ---
+ **요구사항명세서의 완전한 기준? 다음단계인 설계에서 필요한 정보를 모두 담고있어야함. 즉, 업무내용과 기초설계 내용이 포함되어 있어야함**
  
 1. Develop an analysis strategy
    * model the current system
@@ -85,3 +86,95 @@ Questions to be Answered
      >* business processes
 
 3. develop a systems proposal
+
+**System request와 System proposal의 차이점**
+
+system request(프로젝트요청서) - 계획단계, 타당성분석
+system proposal(요구사항명세서) - 분석단계, 업무내용과 기초설계(class같은 전문적인 용어가 사용된)
+
+SDLC : the Design phase - 결과물 : 설계 명세서
+ ---
+ 1. devolop a design strategy
+ 2. design architecture and interfaces
+ 3. developdatabasesand filespecifications
+ 4. develop the program design to specify
+    >* what programs to write
+    >* what eaachprogram will do
+
+SDLC : the Implemetation phase 
+ ---
+ 1. construct the system
+    >* build it(programming code)
+    >* test it
+ 2. install system
+    >*train the users
+ 3. support the system(maintenance)
+
+SDLC:Metthodologies
+---
+SW development methodology : a fomalized(공식화) apporachtoimplemetingth SDLC
+
+* Categories
+  >* **process oriented** - 프로세스중심방법론
+  >* **data centered** - 데이터구조, 데이터중심
+  >* **object-oriented** - 객체지향
+  >* structured programming
+  >* rapid action development
+
+
+software development process models
+---
+* strucured development
+  >* **waterfall development**
+  >* parallel development
+* apid application development
+  >* phased
+  >* **rapid prototyping**
+* aglie development
+  >* eXtreme Programming
+  >* SCRUM
+
+The systems analyst : skill
+---
+* agents of change
+  >* idenify ways to improve theorganization
+  >* motivate & train others
+
+* skills needed
+  >* technical: must understand the technology -기술이해
+  >* business : must knowthe business processes - 업무이해
+  >* analytical : must be a to solve problems - 문제해결능력
+  >* communications : technical & non-technical audiences - 기술자와 비기술자의소통, 용어정의 필수.
+  >* interpersonal(대인관계): leadership & management
+  >* Ethcs(윤리):deal fairly and protect confidential information - 공정하고 기밀 지키기
+
+The Systems analyst : roles
+---
+* business analyst
+* **systems analyst**
+* infrastructure analyst
+* change management analyst
+* **project manager**
+
+object-oriented systems analysis & design - OOAD
+---
+* characteristics of OOAD
+  >* use-case Driven
+  >* architecture Centric
+  >* iterative andIncremental
+
+* use-case driven
+  >* use-cases define thebehavior of a system
+  >* each use-case focuses on one business process
+
+* architecture centric
+* >* functional(external)view:focuses on therusers perspective
+  >* static(structural)view:focuses on attributes, methods, classes&relationships
+  >* Dynamic(behavioral) view:focuses on messages between classes and rresulting behaviors
+
+The unified process
+---
+A specific methodology that maps out when and how to use ther various UML techniques for object-oriented analysis and design - 객체지향분석과 설계를위해 Uml기술을 이용하고 맵핑하기위한 프로세스 모델 중 하나.
+
+
+  
