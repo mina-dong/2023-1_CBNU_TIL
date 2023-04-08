@@ -5,4 +5,16 @@
 * Computer Structure 컴퓨터구조
 * Linear Algebra 선형대수학
 * Object Oriented Design 객체지향설계
-  
+
+### Git bash error
++  ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'path'
+
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+> git pull origin main  
+> i, :wq  
+> git push origin main
