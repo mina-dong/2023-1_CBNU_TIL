@@ -18,3 +18,8 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 > git pull origin main  
 > i, :wq  
 > git push origin main
+
+
++ fatal: Unable to create '/home/runner/0000/.git/index.lock': File exists.
+
+> rm -rf ./.git/index.lock
