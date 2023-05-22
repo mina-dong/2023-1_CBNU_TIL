@@ -7,7 +7,7 @@ Learning Objectives
 * Understand the use of factoring, partitions, and layers.
 * Be able to create package diagrams.
 * Be familiar with the custom, packaged, and outsource design alternatives. (커스텀, 팩키지드, 아웃소스 설계로 개발전략이 총 3개임.)
-* Be able to create an alternative matrix. (가장 ㅈ)
+* Be able to create an alternative matrix. (가장 좋은 전략을 가능한 만들기.)
 
 
 
